@@ -15,20 +15,29 @@ Another way you can create an object is
 to use new Object(): let laptop = new Object();
 */
 // Create two constructor functions
-function Person(firstName, surname) {
-    this.name = firstName;
-    this.surname = surname;
-}
+// function Person(firstName, surname) {
+//     this.name = firstName;
+//     this.surname = surname;
+// }
 
-function Dog(name) {
-    this.name = name;
-}
+// function Dog(name) {
+//     this.name = name;
+// }
 
 // Create objects
 // let person1 = new Person('David', 'Henk');
 // let dog1 = new Dog('Inga');
 
 // Check if a person is a person
+// function testing(obj) {
+//     if(obj.constructor === Person){
+//         console.log("You are a person");
+//     }else {
+//         console.log("You are not a person");
+//     }
+// }
+// testing(person1);
+// Or
 // function testing(obj) {
 //     if(obj.constructor !== Person)
 //         return "You are not a person";
